@@ -11,7 +11,7 @@ st.markdown("""
 
 html, body, [class*="css"]  {
     font-family: 'Orbitron', sans-serif;
-    background: url('background.jpg') no-repeat center center fixed;
+    background: url('background.jpg.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: #00eaff;
 }
@@ -45,7 +45,7 @@ button:hover {
 # Header
 col1, col2 = st.columns([0.15, 0.85])
 with col1:
-    st.image("logo.png", width=100)
+    st.image("logo.png.jpeg", width=100)  # changed to match your file name
 with col2:
     st.markdown("<h1>Phoenix Cells</h1>", unsafe_allow_html=True)
     st.markdown("<h3>AI Battery Revival & CT Scanning</h3>", unsafe_allow_html=True)
